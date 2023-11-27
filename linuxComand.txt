@@ -41,4 +41,25 @@
   913  mv human_friends HumanFriends/
 
   914  history
+  915  dev
+  916  sql
+  917  sudo apt update
+  918  sudo apt install mysql-server
+  919  sudo mysql_secure_installation
+  920  wget https://dev.mysql.com/get/mysql-apt-config_0.8.9-1_all.debsudo%20dpkg%20-i%20mysql-apt-config_0.8.9-1_all.deb
+  921  sudo dpkg -i mysql-apt-confing_0.8.9-1_all.deb
+  922  sudo apt-get update
+  923  sudo dpkg -i mysql-apt-confing_0.8.9-1_all.deb
+  924  sudo dpkg -i package.deb
+  925  dpkg
+  926  dpkg --help
+  927 
+  928  sudo apt download 
+  929  dpkg -l
+  930  sudo dpkg -P nginx
+  931  sudo apt download nginx
+  932  sudo dpkg -i /home/george/linuxGb/nginx_1.18.0-6ubuntu14.4_amd64.deb
+  933  sudo apt list nginx
+  934  sudo dpkg -P nginx
+  935  history
 
