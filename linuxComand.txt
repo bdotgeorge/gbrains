@@ -1,0 +1,44 @@
+893  cd linuxGb/
+
+  894  cat pets
+
+  895  cat > pets
+
+  896  ll
+
+  897  -ll
+
+  898  -ls
+
+  899  ls
+
+  900  cat > pack animals
+
+  901  cat > pack_animals
+
+  902  ls
+
+  903  cat pets pack_animals > human_friends
+
+  904  ls
+
+  905  cat human_friends 
+
+  906  mkdir Human friends
+
+  907  ls
+
+  908  rm Human/
+
+  909  rm Human
+
+  910  rm -r Human/
+
+  911  rm -r friends
+
+  912  mkdir HumanFriends
+
+  913  mv human_friends HumanFriends/
+
+  914  history
+
