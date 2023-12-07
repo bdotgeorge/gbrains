@@ -62,9 +62,8 @@ bool AbstractAnimal::addCommand(std::string &cmnd)
 void AbstractAnimal::commands() const
 {
     for (const std::string &cmnd : command) {
-        //std::cout << cmnd << std::endl;
-        printf("Command %s ", &cmnd);
-        std::cout << std::endl;
+        //printf("Command %s ", &cmnd);
+        std::cout << "Command " << cmnd << std::endl;
     }
 }
 
