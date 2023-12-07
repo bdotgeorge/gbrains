@@ -61,7 +61,8 @@ void Registry::printAllAnimal()
 
 int Registry::countAnimalClass(int &clsAnimal)
 {
-    if(clsAnimal == AnimalClass::Pets) return countPets;
+    if (clsAnimal == 0) return animal.size();
+    else if(clsAnimal == AnimalClass::Pets) return countPets;
     return countPackAnimal;
 }
 

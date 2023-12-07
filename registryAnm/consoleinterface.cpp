@@ -37,7 +37,7 @@ void ConsoleInterface::start()
         addCommandAnimal();
         break;
     case 4:
-        printf("Pets count enter %i \nPackAnimal count enter %i\n", 1, 2);
+        printf("\nAll animals enter 0\nPets count enter %i \nPackAnimal count enter %i\n", 1, 2);
         std::cin >> clsAnml;
         listAnimal(clsAnml);
         break;
@@ -95,6 +95,9 @@ void ConsoleInterface::listAnimal(int &classAnm)
     int cls = 0;
     switch (classAnm)//AnimalClass::Pets, AnimalClass::PackAnimal
     {
+    case 0:
+        printf("Count All animal %i\n", registryAnimal->countAnimalClass(cls));
+        break;
     case 1:
         cls = AnimalClass::Pets;
         printf("Count Pets %i\n", registryAnimal->countAnimalClass(cls));
