@@ -15,6 +15,7 @@ private:
     void listAnimal(int& classAnm);
     void addCommandAnimal();
     Registry *registryAnimal = nullptr;
+ 
     
     unsigned int id = 0;
     std::string command = "";
