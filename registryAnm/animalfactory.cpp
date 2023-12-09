@@ -1,6 +1,10 @@
 #include "animalfactory.h"
-#include "pets.h"
-#include "packanimal.h"
+#include "cats.h"
+#include "dog.h"
+#include "hamster.h"
+#include "horse.h"
+#include "camel.h"
+#include "donkey.h"
 #include <stdexcept>
 
 AbstractAnimal* AnimalFactory::createAnimal(const std::string& name,

@@ -36,7 +36,7 @@ bool Registry::addCommand(unsigned int &idAnimal, std::string &command)
 
 AbstractAnimal* Registry::animalAt(const int& id)
 {
-    if (animal.size() > id || id > -1) {
+    if (animal.size() > abs(id)) {
         return animal.at(id);
     }
     return nullptr;

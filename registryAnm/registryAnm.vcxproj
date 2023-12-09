@@ -21,7 +21,13 @@
   <ItemGroup>
     <ClInclude Include="abstractanimal.h" />
     <ClInclude Include="animalfactory.h" />
+    <ClInclude Include="camel.h" />
+    <ClInclude Include="cats.h" />
     <ClInclude Include="consoleinterface.h" />
+    <ClInclude Include="dog.h" />
+    <ClInclude Include="donkey.h" />
+    <ClInclude Include="hamster.h" />
+    <ClInclude Include="horse.h" />
     <ClInclude Include="packanimal.h" />
     <ClInclude Include="pets.h" />
     <ClInclude Include="registry.h" />
@@ -30,7 +36,13 @@
   <ItemGroup>
     <ClCompile Include="abstractanimal.cpp" />
     <ClCompile Include="animalfactory.cpp" />
+    <ClCompile Include="camel.cpp" />
+    <ClCompile Include="cats.cpp" />
     <ClCompile Include="consoleinterface.cpp" />
+    <ClCompile Include="dog.cpp" />
+    <ClCompile Include="donkey.cpp" />
+    <ClCompile Include="hamster.cpp" />
+    <ClCompile Include="horse.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="packanimal.cpp" />
     <ClCompile Include="pets.cpp" />

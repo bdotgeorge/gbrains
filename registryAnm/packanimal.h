@@ -2,22 +2,10 @@
 #define PACKANIMAL_H
 
 #include "abstractanimal.h"
-class Horse : public AbstractAnimal
+class PackAnimal : public AbstractAnimal
 {
 public:
-    Horse(std::string name, int animalClass, int type, int day, int mouth, int year);
-    ~Horse();
-};
-class Camel : public AbstractAnimal
-{
-public:
-    Camel(std::string name, int animalClass, int type, int day, int mouth, int year);
-    ~Camel();
-};
-class Donkey : public AbstractAnimal
-{
-public:
-    Donkey(std::string name, int animalClass, int type, int day, int mouth, int year);
-    ~Donkey();
+    PackAnimal(std::string name, int animalClass, int type, int day, int mouth, int year);
+    ~PackAnimal();
 };
 #endif // PACKANIMAL_H
